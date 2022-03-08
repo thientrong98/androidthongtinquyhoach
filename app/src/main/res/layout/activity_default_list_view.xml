@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:text="'scroll"/>
+        <TextView android:text="lorem_ipsum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+        <ListView
+            android:id="@+id/default_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+        </ListView>
+        <TextView android:text="whoops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:padding="8dp" />
+    </LinearLayout>
+</ScrollView>

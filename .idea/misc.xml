@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/vlab/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/vlab/app/src/main/res/layout/activity_default_list_view.xml" value="0.18802083333333333" />
+        <entry key="..\:/vlab/app/src/main/res/layout/activity_expandable_list_view.xml" value="0.18802083333333333" />
+        <entry key="..\:/vlab/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>

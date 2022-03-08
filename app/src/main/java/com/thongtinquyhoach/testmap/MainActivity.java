@@ -1,5 +1,6 @@
 package com.thongtinquyhoach.testmap;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -26,12 +27,20 @@ public class MainActivity extends AppCompatActivity {
 //        Toolbar toolbar = findViewById(R.id.tv);
 //        setSupportActionBar(toolbar);
 
-        TextView fab = findViewById(R.id.tv);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MToast.show(MainActivity.this, "This is MToast");
-            }
-        });
+//        TextView fab = findViewById(R.id.tv);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                MToast.show(MainActivity.this, "This is MToast");
+//            }
+//        });
+    }
+
+    public void tryDefault(View view) {
+        MToast.show(MainActivity.this, "This is MToast");
+    }
+
+    public void tryExpandable(View view) {
+        MToast.show(MainActivity.this, "This is MToast");
     }
 }
